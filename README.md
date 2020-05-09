@@ -6,3 +6,4 @@ Insurance Classification Task based on numeric variables
 ![PCA](https://user-images.githubusercontent.com/19572673/81483573-3a62b900-920d-11ea-9a52-509c7d4bb1f7.png)
 ![PCA_2](https://user-images.githubusercontent.com/19572673/81483574-3a62b900-920d-11ea-8d19-9feef8fa78da.png)
 ![Scree_plot](https://user-images.githubusercontent.com/19572673/81483575-3a62b900-920d-11ea-873b-d8d05c6233b5.png)
+![Histogram_Predictors](https://user-images.githubusercontent.com/19572673/81484631-10ad9000-9215-11ea-88cb-6ffe0ebe611a.PNG)
