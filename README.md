@@ -4,20 +4,20 @@ Insurance Classification Task based on numeric variables
 The two classification algorithms I used were Random Forest and AdaBoost. The Random Forest is a bagging technique where a certain number of decision trees are grown on different subsets of the training data. It is also known to have low bias and high variance and has an equal amount of say in the final decision in modeling. AdaBoost is a boosting technique that uses stumps instead which would be a decision tree with only one split. These stumps, also known as weak learners, have high bias and low variance). The AdaBoost also has a different amount of say in the final decision. 
 
 In the first trial, I performed the following data preparation/data cleansing techniques for both the train/test and validation set.  
-•	Checking missing values
-•	Doing mean imputation since roughly less than a fraction of a percent of data was missing
-•	Standardizing/normalizing data based on a scale from 0 to 1.
-•	Performed PCA (feature extraction) to see which variables show most variance among dataset
-•	Identified the top ten predictors based on PCA plot to test out on model.
-•	Visualized data via a histogram, boxplot, PCA plot, heat map(s), and a Scree plot.
+1. Checking missing values
+2. Doing mean imputation since roughly less than a fraction of a percent of data was missing
+3. Standardizing/normalizing data based on a scale from 0 to 1.
+4. Performed PCA (feature extraction) to see which variables show most variance among dataset
+5. Identified the top ten predictors based on PCA plot to test out on model.
+6. Visualized data via a histogram, boxplot, PCA plot, heat map(s), and a Scree plot.
 
 The Random Forest performed with an 82.75% accuracy on the training set and an 81.43% accuracy on the test set. The AdaBoost performed with an 80.6% accuracy on the training set and an 80.7% accuracy the test set. 
 
 In the second trial, I performed the following data preparation/cleansing techniques for both the train/test and validation set.  
-•	Treated outliers by winsorizing and capping certain variables
-•	Bucketed/binning/categorized numerical data
-•	Performed interactions between predictors to see new patterns
-•	Tuned the model to help improve the overall model accuracy
+7. Treated outliers by winsorizing and capping certain variables
+8. Bucketed/binning/categorized numerical data
+9. Performed interactions between predictors to see new patterns
+10. Tuned the model to help improve the overall model accuracy
 
 However, in the second trial, the accuracy level did improve. The Random Forest performed with an 91.31% accuracy on the training set and with an 91.36% accuracy on the test set. The AdaBoost performed with an 93.2% accuracy on the training set and with an 96.8% accuracy on the test set. Thus, the highest model accuracy I received was from AdaBoost.
 
