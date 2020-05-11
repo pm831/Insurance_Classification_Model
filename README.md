@@ -11,6 +11,13 @@ In the first trial, I performed the following data preparation/data cleansing te
 5. Identified the top ten predictors based on PCA plot to test out on model.
 6. Visualized data via a histogram, boxplot, PCA plot, heat map(s), and a Scree plot.
 
+![Scree_plot](https://user-images.githubusercontent.com/19572673/81483575-3a62b900-920d-11ea-873b-d8d05c6233b5.png)
+![PCA](https://user-images.githubusercontent.com/19572673/81483573-3a62b900-920d-11ea-9a52-509c7d4bb1f7.png)
+![PCA_2](https://user-images.githubusercontent.com/19572673/81483574-3a62b900-920d-11ea-8d19-9feef8fa78da.png)
+![Comp_Features_Heat_Map](https://user-images.githubusercontent.com/19572673/81483571-39ca2280-920d-11ea-983e-10d193c31e9d.png)
+![Features_Correlation_Heat_Map](https://user-images.githubusercontent.com/19572673/81483572-3a62b900-920d-11ea-80f4-47fd4f9bbc73.png)
+![Histogram_Predictors](https://user-images.githubusercontent.com/19572673/81484631-10ad9000-9215-11ea-88cb-6ffe0ebe611a.PNG)
+
 The Random Forest performed with an 82.75% accuracy on the training set and an 81.43% accuracy on the test set. The AdaBoost performed with an 80.6% accuracy on the training set and an 80.7% accuracy the test set. 
 
 In the second trial, I performed the following data preparation/cleansing techniques for both the train/test and validation set.  
@@ -24,10 +31,3 @@ However, in the second trial, the accuracy level did improve. The Random Forest 
 I believe that the AdaBoost would perform the best with what the data I was given. I believe that the choices I made in the context of the exercise would be different in a business context. For example, this dataset only included numerical variables as maybe in a business context, there would categorical variables that could be ordinal in nature (which allows transformation of those variables) to see their impact on the model. Sometimes, real-world data seems to be much more messier in nature where they could have a higher percentage of missing values in the dataset as well as more outliers that could skew the model (obviously depending on the methods used to treat them). In addition, while working a real-world setting, you would know some variables that historically tend to predict well (from a business context), and which ones do not. 
 
 To a business partner, I would explain that the Random Forest (all else equal) would work better for complex data (high variance, low bias) that’s a bit more unknown in terms of predictors’ effect on the response variable since it looks at all predictor variables equally in terms of its importance. However, for AdaBoost, although it has a higher accuracy rate, is better for ‘biased’ data vs. data with a lot of variance. However, the caveat is that sometimes the results of AdaBoost has a higher probability of seeing new data and predicting ‘wrong’ if that new set of data has more variance.
-
-![Scree_plot](https://user-images.githubusercontent.com/19572673/81483575-3a62b900-920d-11ea-873b-d8d05c6233b5.png)
-![PCA](https://user-images.githubusercontent.com/19572673/81483573-3a62b900-920d-11ea-9a52-509c7d4bb1f7.png)
-![PCA_2](https://user-images.githubusercontent.com/19572673/81483574-3a62b900-920d-11ea-8d19-9feef8fa78da.png)
-![Comp_Features_Heat_Map](https://user-images.githubusercontent.com/19572673/81483571-39ca2280-920d-11ea-983e-10d193c31e9d.png)
-![Features_Correlation_Heat_Map](https://user-images.githubusercontent.com/19572673/81483572-3a62b900-920d-11ea-80f4-47fd4f9bbc73.png)
-![Histogram_Predictors](https://user-images.githubusercontent.com/19572673/81484631-10ad9000-9215-11ea-88cb-6ffe0ebe611a.PNG)
