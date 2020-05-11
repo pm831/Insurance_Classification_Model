@@ -14,10 +14,10 @@ In the first trial, I performed the following data preparation/data cleansing te
 The Random Forest performed with an 82.75% accuracy on the training set and an 81.43% accuracy on the test set. The AdaBoost performed with an 80.6% accuracy on the training set and an 80.7% accuracy the test set. 
 
 In the second trial, I performed the following data preparation/cleansing techniques for both the train/test and validation set.  
-7. Treated outliers by winsorizing and capping certain variables
-8. Bucketed/binning/categorized numerical data
-9. Performed interactions between predictors to see new patterns
-10. Tuned the model to help improve the overall model accuracy
+1. Treated outliers by winsorizing and capping certain variables
+2. Bucketed/binning/categorized numerical data
+3. Performed interactions between predictors to see new patterns
+4. Tuned the model to help improve the overall model accuracy
 
 However, in the second trial, the accuracy level did improve. The Random Forest performed with an 91.31% accuracy on the training set and with an 91.36% accuracy on the test set. The AdaBoost performed with an 93.2% accuracy on the training set and with an 96.8% accuracy on the test set. Thus, the highest model accuracy I received was from AdaBoost.
 
