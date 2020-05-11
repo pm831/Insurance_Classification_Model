@@ -26,6 +26,9 @@ In the second trial, I performed the following data preparation/cleansing techni
 3. Performed interactions between predictors to see new patterns
 4. Tuned the model to help improve the overall model accuracy
 
+![BP_Outliers1](https://user-images.githubusercontent.com/19572673/81614459-11c5f500-93ae-11ea-9dd6-7ef3dd3617aa.png)
+![BP_Outliers_Gone_1](https://user-images.githubusercontent.com/19572673/81614456-112d5e80-93ae-11ea-8acb-a2f683daa7a4.png)
+
 However, in the second trial, the accuracy level did improve. The Random Forest performed with an 91.31% accuracy on the training set and with an 91.36% accuracy on the test set. The AdaBoost performed with an 93.2% accuracy on the training set and with an 96.8% accuracy on the test set. Thus, the highest model accuracy I received was from AdaBoost.
 
 I believe that the AdaBoost would perform the best with what the data I was given. I believe that the choices I made in the context of the exercise would be different in a business context. For example, this dataset only included numerical variables as maybe in a business context, there would categorical variables that could be ordinal in nature (which allows transformation of those variables) to see their impact on the model. Sometimes, real-world data seems to be much more messier in nature where they could have a higher percentage of missing values in the dataset as well as more outliers that could skew the model (obviously depending on the methods used to treat them). In addition, while working a real-world setting, you would know some variables that historically tend to predict well (from a business context), and which ones do not. 
