@@ -17,6 +17,7 @@ In the first trial, I performed the following data preparation/data cleansing te
 ![Comp_Features_Heat_Map](https://user-images.githubusercontent.com/19572673/81483571-39ca2280-920d-11ea-983e-10d193c31e9d.png)
 ![Features_Correlation_Heat_Map](https://user-images.githubusercontent.com/19572673/81483572-3a62b900-920d-11ea-80f4-47fd4f9bbc73.png)
 ![Histogram_Predictors](https://user-images.githubusercontent.com/19572673/81484631-10ad9000-9215-11ea-88cb-6ffe0ebe611a.PNG)
+![PC-barplots](https://user-images.githubusercontent.com/19572673/82132779-6bb12b00-97b1-11ea-8800-2f8590662e72.PNG)
 
 The Random Forest performed with an 82.75% accuracy on the training set and an 81.43% accuracy on the test set. The AdaBoost performed with an 80.6% accuracy on the training set and an 80.7% accuracy the test set. 
 
