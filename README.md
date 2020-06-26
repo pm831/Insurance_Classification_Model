@@ -1,4 +1,7 @@
-# Insurance_Classification_Problem
+# Insurance Classification Problem
+
+### Pujan Malavia 
+
 Insurance Classification Task based on numeric variables
 
 The two classification algorithms I used were Random Forest and AdaBoost. The Random Forest is a bagging technique where a certain number of decision trees are grown on different subsets of the training data. It is also known to have low bias and high variance and has an equal amount of say in the final decision in modeling. AdaBoost is a boosting technique that uses stumps instead which would be a decision tree with only one split. These stumps, also known as weak learners, have high bias and low variance). The AdaBoost also has a different amount of say in the final decision. 
