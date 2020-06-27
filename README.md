@@ -6,7 +6,16 @@
 
 ### Abstract:
 
+Being able to build a model only through new feature creation, only with internal data provided, and being able to do model tuning with appropriate parameters to build out the best model possible to classify a binary outcome (1 or 0) through mostly numeric variables
 
+Rules:
+
+New features can be created.
+
+Users cannot add or supplement with external data. 
+
+While simple techniques may develop adequate models, success in this exercise typically involves feature engineering and model tuning.
+Throughout your code, please use comments to document your thought process as you move through exploratory data analysis, feature engineering, model tuning, etc.  
 
 ### Industry: 
 Insurance
