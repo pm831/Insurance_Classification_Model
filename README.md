@@ -29,6 +29,12 @@ Insurance Classification Task based on mostly numeric variables
 ### Tool: 
 R
 
+### Techniques: 
+
+Random Forest
+
+AdaBoost
+
 ### Data Fields:
 x0 - x99
 
@@ -103,5 +109,7 @@ To a business partner, I would explain that the Random Forest (all else equal) w
 ### Future Work:
 
 Continue to do hyperparameter tuning of the model and creating new features/removing old features to help increase the prediction accuracy of the model
-Try other types of models to see if the accuracy rate improves 
-More data visualization/patterns within the dataset that can lead to more insights and decision-making from a business perspective
+
+Try other types of models to see if the accuracy rate improves
+
+More data visualization/patterns within the dataset (external sources) that can lead to more insights and decision-making from a business perspective
